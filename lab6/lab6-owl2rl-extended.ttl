@@ -434,11 +434,6 @@ rdf:HTML a rdfs:Datatype,
         owl:Thing ;
     owl:sameAs rdf:HTML .
 
-rdf:LangString a rdfs:Datatype,
-        rdfs:Resource,
-        owl:Thing ;
-    owl:sameAs rdf:LangString .
-
 rdf:PlainLiteral a rdfs:Datatype,
         rdfs:Resource,
         owl:Thing ;
@@ -448,6 +443,11 @@ rdf:XMLLiteral a rdfs:Datatype,
         rdfs:Resource,
         owl:Thing ;
     owl:sameAs rdf:XMLLiteral .
+
+rdf:langString a rdfs:Datatype,
+        rdfs:Resource,
+        owl:Thing ;
+    owl:sameAs rdf:langString .
 
 rdf:type a rdfs:Resource ;
     owl:sameAs rdf:type .
